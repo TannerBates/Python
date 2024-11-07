@@ -10,10 +10,10 @@ Use pip install pyscreenshot
 
 
 #Capturing full screenshot
-import pyscreenshot
+import pyscreenshot as ImageGrab
 
 #to capture the screen
-image = pyscreenshot.grab()
+image = ImageGrab.grab()
 
 #display the captured screenshot
 image.show()
